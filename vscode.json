@@ -1,0 +1,53 @@
+{
+    // Visuals
+    "editor.fontSize": 14,
+    "editor.fontFamily": "MonoLisa, Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "editor.snippetSuggestions": "top",
+    "editor.suggestSelection": "first",
+    "editor.linkedEditing": true,
+    "editor.stickyScroll.enabled": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "workbench.colorTheme": "Dracula Theme",
+    "workbench.iconTheme": "file-icons",
+    "workbench.statusBar.visible": false,
+    "workbench.list.smoothScrolling": true,
+    "workbench.startupEditor": "newUntitledFile",
+
+    // Editor
+    "breadcrumbs.enabled": false,
+    "editor.accessibilitySupport": "off",
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "zenMode.hideLineNumbers": true,
+    "zenMode.showTabs": "single",
+    "zenMode.hideStatusBar": false,
+    "search.exclude": {
+        "**/*.snap": true,
+        "**/.git": true,
+        "**/.github": false,
+        "**/.nuxt": true,
+        "**/.output": true,
+        "**/.pnpm": true,
+        "**/.vscode": true,
+        "**/.yarn": true,
+        "**/node_modules": true,
+        "**/out/**": true,
+        "**/package-lock.json": true,
+        "**/pnpm-lock.yaml": true,
+        "**/temp": true,
+        "**/yarn.lock": true,
+        "**/CHANGELOG*": true,
+        "**/LICENSE*": true
+    },
+
+    // Global config
+    "window.dialogStyle": "custom",
+    "window.nativeTabs": true, // this is great, macOS only
+    "window.title": "${rootName}", // this make tabs more readable
+    "window.titleBarStyle": "custom",
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+}
